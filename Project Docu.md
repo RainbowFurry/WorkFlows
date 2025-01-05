@@ -6,12 +6,11 @@
 ![GitHub issues][issues-badge]
 ![GitHub release][release-badge]
 
-<!--
-[Join our Discord][discord-invite]
-
-Unlock achievements on Microsoft/Xbox games with ease. This tool is inspired by the functionality of Steam Achievements Manager and is completely free to use.
--->
-
+<br>
+<div align="center">
+[Home](https://rainbowfurr.com) | [Features](#features) | [Installation](#installation) | [Usage](#usage) | [Contributing](#contributing) | [License](#license)
+</div>
+<br>
 
 ## Table of Contents
 - [AppName](#appname)

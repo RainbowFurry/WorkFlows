@@ -9,16 +9,16 @@ jobs:
   create-release:
     runs-on: ubuntu-latest
 
-  steps:
+    steps:
     - name: Checkout code
       uses: actions/checkout@v3
 
-   - name: Set up Git
+    - name: Set up Git
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-  - name: Get version from package.json (for Node.js projects)
+    - name: Get version from package.json (for Node.js projects)
       id: get_version
       run: echo "version=$(jq -r .version package.json)" >> $GITHUB_ENV
       # Alternatively, use your versioning system or tag if applicable
